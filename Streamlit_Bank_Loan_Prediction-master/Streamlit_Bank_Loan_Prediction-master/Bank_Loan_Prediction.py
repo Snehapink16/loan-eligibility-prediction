@@ -57,10 +57,6 @@ def predict_single(data):
     features = [encode_input(data)]
     return model.predict(features)[0]
 
-# Render logo
-def render_logo():
-    img = Image.open('Streamlit_Bank_Loan_Prediction-master/Streamlit_Bank_Loan_Prediction-master/logo bank.jpeg').resize((160, 145))
-    st.image(img, use_column_width=False)
 
 # Simple interest calculator function
 def simple_interest(principal, rate, time):
