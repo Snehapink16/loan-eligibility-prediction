@@ -59,7 +59,7 @@ def predict_single(data):
 
 # Render logo
 def render_logo():
-    img = Image.open('logo bank.jpeg').resize((160, 145))
+    img = Image.open('Streamlit_Bank_Loan_Prediction-master/Streamlit_Bank_Loan_Prediction-master/logo bank.jpeg').resize((160, 145))
     st.image(img, use_column_width=False)
 
 # Simple interest calculator function
