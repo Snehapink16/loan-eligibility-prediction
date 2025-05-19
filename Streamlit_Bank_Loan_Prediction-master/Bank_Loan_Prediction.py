@@ -58,9 +58,7 @@ def predict_single(data):
     return model.predict(features)[0]
 
 # Render logo
-def render_logo():
-    img = Image.open('logo bank.jpeg').resize((160, 145))
-    st.image(img, use_column_width=False)
+
 def render_logo():
     st.image("https://lens.usercontent.google.com/image?vsrid=CPuXrcaUo7eWYhACGAEiJGNiZTQ1MTFjLWNkYmMtNDBkZi04YWQ0LTc0ZDE3NDAwMTE3NDjm9PC04a6NAw&gsessionid=5HxqDPkaXZJIfzdSh_2IE0LOCPzpkBoByh5ouejUFscvZjUQG7qTJw/logo.jpeg", width=160) 
 
