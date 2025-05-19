@@ -6,7 +6,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Load model
-model = pickle.load(open('./Model/ML_Model.pkl', 'rb'))
+model = pickle.load(open('Streamlit_Bank_Loan_Prediction-master/Model/ML_Model.pkl', 'rb'))
 
 SAVE_FILE = 'loan_applications.csv'
 
